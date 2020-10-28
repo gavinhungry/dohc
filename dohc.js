@@ -9,10 +9,10 @@ const fetch = require('node-fetch');
 /**
  * @param {String} domainName
  * @param {Object} [opts]
- * @param {String} [opts.server]
- * @param {String} [opts.type]
+ * @param {String} [opts.provider] - DoH provider
+ * @param {String} [opts.type] - record type
  * @param {Boolean} [opts.raw] - if true, return complete JSON response
- * @return {Promise.<String>}
+ * @return {Promise}
  */
 const dohc = async (domainName, {
   provider = CONFIG.DEFAULT_DOH_PROVIDER,
