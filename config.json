@@ -1,0 +1,4 @@
+{
+  "DEFAULT_DOH_PROVIDER": "cloudflare-dns.com/dns-query",
+  "DEFAULT_RECORD_TYPE": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "dohc",
+  "version": "0.0.0",
+  "description": "Dead simple DNS-over-HTTPS (DoH) client",
+  "author": "Gavin Lloyd <gavinhungry@gmail.com>",
+  "license": "MIT",
+
+  "homepage": "https://github.com/gavinhungry/dohc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavinhungry/dohc.git"
+  },
+
+  "keywords": [
+    "dns",
+    "https"
+  ],
+
+  "main": "dohc.js",
+
+  "bin": {
+    "dohc": "bin/dohc"
+  },
+
+  "dependencies": {
+    "commander": "6.2.x",
+    "node-fetch": "2.6.x"
+  }
+}
