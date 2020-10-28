@@ -18,7 +18,6 @@ const dohc = async (domainName, {
   provider = CONFIG.DEFAULT_DOH_PROVIDER,
   type = CONFIG.DEFAULT_RECORD_TYPE,
   raw = false
-  // TODO: record type
 } = {}) => {
   let queryUrl = `https://${provider}?name=${domainName}&type=${type}`;
 
