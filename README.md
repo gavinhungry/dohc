@@ -51,7 +51,7 @@ let json = await dohc('github.com', {
 Command line
 ------------
 ```sh
-doh github.com [--provider PROVIDER] [--type TYPE] [--raw]
+dohc github.com [--provider PROVIDER] [--type TYPE] [--raw]
 ```
 
 License
