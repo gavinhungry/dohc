@@ -2,12 +2,6 @@ dohc
 ====
 DNS-over-HTTPS (DoH) client
 
-Installation
-------------
-```sh
-npm -g install dohc
-```
-
 Usage
 -----
 ```js
