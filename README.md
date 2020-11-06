@@ -1,6 +1,6 @@
 dohc
 ====
-Dead simple DNS-over-HTTPS (DoH) client
+DNS-over-HTTPS (DoH) client
 
 Installation
 ------------

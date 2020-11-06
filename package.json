@@ -1,7 +1,7 @@
 {
   "name": "dohc",
   "version": "0.1.0",
-  "description": "Dead simple DNS-over-HTTPS (DoH) client",
+  "description": "DNS-over-HTTPS (DoH) client",
   "author": "Gavin Lloyd <gavinhungry@gmail.com>",
   "license": "MIT",
 

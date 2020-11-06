@@ -1,5 +1,5 @@
 /*
- * dohc - Dead simple DNS-over-HTTPS (DoH) client
+ * dohc - DNS-over-HTTPS (DoH) client
  * https://github.com/gavinhungry/dohc
  */
 

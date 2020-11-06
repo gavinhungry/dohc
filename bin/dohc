@@ -4,7 +4,7 @@ const PKG = require('../package.json');
 const dohc = require('../dohc');
 
 let app = require('commander')
-  .description('Dead simple DNS-over-HTTPS (DoH) client')
+  .description('DNS-over-HTTPS (DoH) client')
   .usage('<DOMAIN_NAME> [options]')
   .option('-p, --provider [PROVIDER]', 'DoH provider')
   .option('-t, --type [TYPE]', 'Record type')
